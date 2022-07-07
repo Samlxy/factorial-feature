@@ -16,6 +16,7 @@ describe("Calculate", () => {
       assert.equal(result, expectedResult);
     });
 
+
     // Test block two
     it("returns correct value of 3!", () => {
       //setup
@@ -28,9 +29,10 @@ describe("Calculate", () => {
       //verify
       assert.equal(result, expectedResult);
     });
+    
 
-     // Test block Three
-     it("returns correct value of 0!", () => {
+    // Test block Three
+    it("returns correct value of 0!", () => {
       //setup
       const inputNumber = 0;
       const expectedResult = 1;
